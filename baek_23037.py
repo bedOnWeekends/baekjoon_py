@@ -1,0 +1,1 @@
+print(sum(int(ele) ** 5 for ele in input()))

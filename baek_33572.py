@@ -1,0 +1,1 @@
+print("DIMI" if (lambda n, m: sum(int(x) - 1 for x in input().split()) >= m)(*map(int, input().split())) else "OUT")
